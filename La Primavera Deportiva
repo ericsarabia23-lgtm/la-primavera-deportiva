@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Primavera Esportiva</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background: linear-gradient(to bottom, #ffeb3b, #ff9800); color: #333; scroll-behavior: smooth;}
+    header {background: #f44336; color: white; padding: 40px 20px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2);}
+    header img {max-width: 150px; margin-bottom: 15px;}
+    header h1 { margin: 0; font-size: 2.5rem; }
+    nav {display: flex; justify-content: center; background-color: #3f51b5; position: sticky; top: 0; z-index: 100;}
+    nav a {color: white; text-decoration: none; padding: 14px 20px; transition: 0.3s;}
+    nav a:hover { background-color: #2196f3; }
+    section { padding: 50px 20px; max-width: 900px; margin: auto; }
+    h2 { color: #e91e63; text-align: center; margin-bottom: 30px; font-size: 2rem; }
+    .cards { display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; }
+    .card { background: white; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 250px; text-align: center; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;}
+    .card:hover { transform: translateY(-10px); box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
+    .card img { width: 100%; height: 150px; object-fit: cover; }
+    .card h3 { margin: 15px 0 10px 0; color: #ff5722; }
+    .card p { padding: 0 15px; font-size: 0.95rem; }
+    a.enllaç {display: inline-block; background-color: #009688; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; margin-top: 20px; font-weight: bold; transition: 0.3s;}
+    a.enllaç:hover { background-color: #00796b; }
+    form input, form textarea {width: 100%; padding: 12px; margin: 5px 0 15px 0; border-radius: 8px; border: 1px solid #ccc; font-family: 'Roboto', sans-serif;}
+    form input[type="submit"] {background-color: #009688; color: white; border: none; cursor: pointer; padding: 12px 20px; font-size: 1rem; border-radius: 8px; transition: 0.3s;}
+    form input[type="submit"]:hover { background-color: #00796b; }
+    footer {text-align: center; padding: 20px; background-color: #3f51b5; color: white; font-size: 0.9rem;}
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Institut_Ramon_Barbat_logo.svg/2560px-Institut_Ramon_Barbat_logo.svg.png" alt="Logo Institut Ramon Barbat">
+    <h1>La Primavera Esportiva de l'Institut Ramon Barbat 2025</h1>
+    <p>Participa, diverteix-te i gaudeix de l'esport! Patrocinat per Institut Ramon Barbat</p>
+  </header>
+
+  <nav>
+    <a href="#inici">Inici</a>
+    <a href="#esdeveniments">Esdeveniments</a>
+    <a href="#activitats">Classes</a>
+    <a href="#informacio">Informació</a>
+    <a href="#contacte">Contacte</a>
+  </nav>
+
+  <section id="inici">
+    <h2>Benvinguts</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      La Primavera Esportiva és el nostre projecte anual per fomentar l'esport, la salut i la diversió entre tots els estudiants. Inscripcions obertes fins al <strong>1 d'abril</strong>. Pagament en efectiu i al moment. <br>
+      Preus: Cursa <strong>10 €</strong>, Futbol <strong>5 €</strong>, Zumba i Pilates <strong>2 €</strong>. <br>
+      Els participants de la cursa rebran una <strong>samarreta de regal</strong>.
+    </p>
+    <div style="text-align:center; margin-top:20px;">
+      <a href="#contacte" class="enllaç">Inscriu-te aquí</a>
+    </div>
+  </section>
+
+  <section id="esdeveniments">
+    <h2>Esdeveniments esportius</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/2402771/pexels-photo-2402771.jpeg" alt="Cursa infantil">
+        <h3>Ruta de la cursa</h3>
+        <p>Participa i demostra la teva velocitat i resistència. Cursa per a petits: 120 m; de 9 a 18 anys: 5 km; altres edats: 5 km. 10 equips per categoria. Premi pels primers classificats. Inscripció: <strong>10 €</strong>. Els participants rebran <strong>samarretes de regal</strong>.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/3991876/pexels-photo-3991876.jpeg" alt="Futbol femení real">
+        <h3>Torneig de futbol femení</h3>
+        <p>Competència entre 10 equips femenins. Treball en equip i diversió garantida. Premi pel primer classificat. Inscripció: <strong>5 €</strong>.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg" alt="Futbol masculí">
+        <h3>Torneig de futbol masculí</h3>
+        <p>Deu equips masculins competiran amb energia i esportivitat. Premi pel primer classificat. Inscripció: <strong>5 €</strong>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="activitats">
+    <h2>Classes i activitats</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/3763871/pexels-photo-3763871.jpeg" alt="Zumba real">
+        <h3>Zumba</h3>
+        <p>Classes amb ritme i molta diversió per moure el cos i descarregar energia. Inscripció: <strong>2 €</strong>.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg" alt="Pilates">
+        <h3>Pilates</h3>
+        <p>Exercicis per enfortir el cos, millorar la postura i relaxar-se. Inscripció: <strong>2 €</strong>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="informacio">
+    <h2>Informació addicional</h2>
+    <ul>
+      <li>Registre obligatori abans de participar en qualsevol activitat.</li>
+      <li>S'assignaran 10 equips per a cada torneig i cursa.</li>
+      <li>Classes de Zumba i Pilates obertes a tots els estudiants.</li>
+      <li>Hi haurà un mini bar disponible durant l'esdeveniment per obtenir beneficis.</li>
+      <li>Planificació de l'esdeveniment: Primer dia - Cursa, Zumba i Pilates; Segon dia - Esmorzar popular amb música d'ambient.</li>
+      <li>Hi haurà premis per als primers llocs del futbol i la cursa, així com regals relacionats amb l'institut.</li>
+      <li>El pagament de la inscripció és en efectiu i al moment.</li>
+      <li>Preus d'inscripció: Cursa <strong>10 €</strong>, Futbol <strong>5 €</strong>, Zumba i Pilates <strong>2 €</strong>. A la cursa es regalaran samarretes.</li>
+    </ul>
+  </section>
+
+  <section id="contacte">
+    <h2>Formulari d'inscripció / Contacte</h2>
+    <form style="max-width:600px; margin:auto;">
+      <label>Nom:</label>
+      <input type="text" name="nom" required>
+      <label>Correu electrònic:</label>
+      <input type="email" name="email" required>
+      <label>Missatge:</label>
+      <textarea name="missatge" rows="4" required></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 La Primavera Esportiva - Institut Ramon Barbat | Patrocinat per Institut Ramon Barbat</p>
+  </footer>
+
+</body>
+</html>
